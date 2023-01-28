@@ -25,3 +25,7 @@
       display: none;
     }
   }
+
+  .ortala {
+    justify-content: space-evenly;
+  }
