@@ -31,8 +31,7 @@ carouselExample.innerHTML = `<div> <ol class="carousel-indicators">
       <span class="sr-only">Previous</span>
     </a></div>`;
 
-carouselDesktop.innerHTML = `<div style="padding : 0 10 rem"> <ol class="carousel-indicators">
-<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+carouselDesktop.innerHTML = `<div> <ol class="carousel-indicators">
 </ol>
 <div class="carousel-inner">
 <div class="carousel-item active">
