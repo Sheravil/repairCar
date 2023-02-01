@@ -15,7 +15,7 @@
   }
 
   
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 599px) {
     #carouselExampleCaptions {
       visibility: hidden;
       clear: both;
