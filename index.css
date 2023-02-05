@@ -2,6 +2,16 @@
     display: none;
 }
 
+.effectLeft {
+  animation: mymoveLeft 1s;
+  animation-fill-mode: forwards;
+}
+.effectRight {
+  animation: mymoveRight 1s;
+  animation-fill-mode: forwards;
+}
+
+
 
 @media screen and (max-width: 600px) {
     #carouselExampleDesktop {
@@ -11,9 +21,30 @@
       margin: 10px auto 5px 20px;
       width: 28%;
       display: none;
+      
+    }
+  }
+  @keyframes mymoveLeft {
+    from {
+      left: -100px;
+      opacity: 0;
+    }
+    to {
+      left: 0px;
+      opacity: 1;
     }
   }
 
+  @keyframes mymoveRight {
+    from {
+      right: -100px;
+      opacity: 0;
+    }
+    to {
+      right: 0px;
+      opacity: 1;
+    }
+  }
   
   @media screen and (min-width: 599px) {
     #carouselExampleCaptions {
@@ -29,3 +60,4 @@
   .ortala {
     justify-content: space-evenly;
   }
+
