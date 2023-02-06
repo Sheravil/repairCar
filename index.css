@@ -3,11 +3,11 @@
 }
 
 .effectLeft {
-  animation: mymoveLeft 1s;
+  animation: mymoveLeft 2s;
   animation-fill-mode: forwards;
 }
 .effectRight {
-  animation: mymoveRight 1s;
+  animation: mymoveRight 2s;
   animation-fill-mode: forwards;
 }
 
@@ -26,7 +26,7 @@
   }
   @keyframes mymoveLeft {
     from {
-      left: -100px;
+      left: -200px;
       opacity: 0;
     }
     to {
@@ -37,7 +37,7 @@
 
   @keyframes mymoveRight {
     from {
-      right: -100px;
+      right: -200px;
       opacity: 0;
     }
     to {
