@@ -3,11 +3,11 @@
 }
 
 .effectLeft {
-  animation: mymoveLeft 2s;
+  animation: mymoveLeft 2.5s;
   animation-fill-mode: forwards;
 }
 .effectRight {
-  animation: mymoveRight 2s;
+  animation: mymoveRight 2.5s;
   animation-fill-mode: forwards;
 }
 
