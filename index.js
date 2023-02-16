@@ -9,7 +9,7 @@ carouselExample.innerHTML = `<div> <ol class="carousel-indicators">
 <div class="carousel-item active">
   <img  src="/img/takim2.jpg" class="d-block w-100" alt="...">
   <div class="carousel-caption" style="height: 35%;">
-    <h2>İmtan Oto Kaporta</h2>
+    <h3>İmtan Oto Kaporta</h3>
     <p>Boyasız Göçük Onarım Merkezi</p>
     <br>
   </div>
@@ -35,10 +35,9 @@ carouselDesktop.innerHTML = `<div> <ol class="carousel-indicators">
 </ol>
 <div class="carousel-inner">
 <div class="carousel-item active">
-  <img  src="/img/takim1.jpg" class="d-block w-100" alt="...">
-  <div class="carousel-caption" style="height: 38%;">
-    <h2 style="font-size:5rem">İmtan Oto Kaporta</h2>
-    <h2>Boyasız Göçük Onarım Merkezi</h2>
+  <img  src="/img/takim11.jpg" class="d-block w-100" alt="...">
+  <div class="carousel-caption" style="height: 34%;">
+    
     <br>
   </div>
    
